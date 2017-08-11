@@ -10,7 +10,7 @@
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel Margin="10">
             <Button Content="Start long running operation" Click="Button_Click" Margin="10"/>
-            <ProgressBar x:Name="secondRotateTransform" Height="20"/>
+            <ProgressBar x:Name="progressBar" Height="20"/>
         </StackPanel>
     </Grid>
 </Page>

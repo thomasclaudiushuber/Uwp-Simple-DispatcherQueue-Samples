@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DispatcherQueueToUpdateUITh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DispatcherQueueTimers", "DispatcherQueueTimers\DispatcherQueueTimers.csproj", "{34F6438C-FB18-415C-B71E-1FF96BDEDF82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DispatcherQueueDedicatedThreads", "DispatcherQueueDedicatedThreads\DispatcherQueueDedicatedThreads.csproj", "{B1C05548-DC21-440D-B21E-8A95B6AAC404}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM = Debug|ARM
@@ -53,6 +55,24 @@ Global
 		{34F6438C-FB18-415C-B71E-1FF96BDEDF82}.Release|x86.ActiveCfg = Release|x86
 		{34F6438C-FB18-415C-B71E-1FF96BDEDF82}.Release|x86.Build.0 = Release|x86
 		{34F6438C-FB18-415C-B71E-1FF96BDEDF82}.Release|x86.Deploy.0 = Release|x86
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Debug|ARM.Build.0 = Debug|ARM
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Debug|x64.ActiveCfg = Debug|x64
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Debug|x64.Build.0 = Debug|x64
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Debug|x64.Deploy.0 = Debug|x64
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Debug|x86.ActiveCfg = Debug|x86
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Debug|x86.Build.0 = Debug|x86
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Debug|x86.Deploy.0 = Debug|x86
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Release|ARM.ActiveCfg = Release|ARM
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Release|ARM.Build.0 = Release|ARM
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Release|ARM.Deploy.0 = Release|ARM
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Release|x64.ActiveCfg = Release|x64
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Release|x64.Build.0 = Release|x64
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Release|x64.Deploy.0 = Release|x64
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Release|x86.ActiveCfg = Release|x86
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Release|x86.Build.0 = Release|x86
+		{B1C05548-DC21-440D-B21E-8A95B6AAC404}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

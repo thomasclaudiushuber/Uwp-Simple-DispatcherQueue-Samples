@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="DispatcherQueueDedicatedThreads.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DispatcherQueueDedicatedThreads"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <Button Content="Calculate Prime numbers till 100000" x:Name="btnStart" Click="ButtonStart_Click"/>
+            <Button Content="Stop" x:Name="btnStop" IsEnabled="False" Click="ButtonStop_Click"/>
+            <ProgressBar Height="10" x:Name="progressBar"/>
+            <TextBlock x:Name="txtResult" TextWrapping="Wrap"/>
+        </StackPanel>
+    </Grid>
+</Page>
