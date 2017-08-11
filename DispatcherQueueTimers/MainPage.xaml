@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="DispatcherQueueTimers.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DispatcherQueueTimers"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" FontSize="30">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel>
+            <TextBlock Text="Current time"/>
+            <TextBlock x:Name="txtTime"/>
+            <TextBlock Text="Analog clock:" Margin="0 10 0 0"/>
+            <Canvas Width="200" Height="200" HorizontalAlignment="Left">
+                <Rectangle Fill="Red" Width="1" Height="100"
+                           Canvas.Left="99.5" RenderTransformOrigin="0.5 1">
+                    <Rectangle.RenderTransform>
+                        <RotateTransform x:Name="secondRotateTransform"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle Fill="#333333" Width="4" Height="90" Canvas.Top="10"
+                           Canvas.Left="98" RenderTransformOrigin="0.5 1">
+                    <Rectangle.RenderTransform>
+                        <RotateTransform x:Name="minuteRotateTransform"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Rectangle Fill="#555555" Width="6" Height="50" Canvas.Top="50"
+                           Canvas.Left="97" RenderTransformOrigin="0.5 1">
+                    <Rectangle.RenderTransform>
+                        <RotateTransform x:Name="hourRotateTransform"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+                <Ellipse Fill="DarkRed" Width="10" Height="10"
+                         Canvas.Left="95" Canvas.Top="95"/>
+            </Canvas>
+        </StackPanel>
+    </Grid>
+</Page>
