@@ -9,8 +9,8 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <StackPanel>
-            <Button Content="Calculate Prime numbers till 100000" x:Name="btnStart" Click="ButtonStart_Click"/>
-            <Button Content="Stop" x:Name="btnStop" IsEnabled="False" Click="ButtonStop_Click"/>
+            <Button Content="Calculate Prime numbers till 100000" Margin="10" x:Name="btnStart" Click="ButtonStart_Click"/>
+            <Button Content="Stop" x:Name="btnStop" Margin="10" IsEnabled="False" Click="ButtonStop_Click"/>
             <ProgressBar Height="10" x:Name="progressBar"/>
             <TextBlock x:Name="txtResult" TextWrapping="Wrap"/>
         </StackPanel>
